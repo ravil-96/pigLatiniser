@@ -81,5 +81,4 @@ public class PigLatiniserControllerTest {
     public void pigLatiniserShouldDeleteTranslatedPhraseById() throws Exception {
         this.mockMvc.perform(delete("/phrases/1")).andDo(print()).andExpect(status().isOk());
     }
-
 }
