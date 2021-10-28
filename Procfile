@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/app/src/main/java/pigLatiniser/PigLatiniserApplication
+web: java -jar app/build/libs/app.jar
